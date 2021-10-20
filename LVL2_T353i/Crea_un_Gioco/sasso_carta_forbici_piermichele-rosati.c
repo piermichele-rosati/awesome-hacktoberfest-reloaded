@@ -55,7 +55,7 @@ int move(){
 	int move;
 	do{
 		scanf("%d",&move);
-	}while(move < 0 || move > 1);
+	}while(move < 0 || move > 2);
 	
 	return move;
 }
