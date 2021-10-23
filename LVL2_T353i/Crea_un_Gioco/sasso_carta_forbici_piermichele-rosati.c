@@ -25,7 +25,7 @@ int menu(){
     printf("0. Exit\n");
 
     do{
-        printf("Enter a choice (0-2): ");
+        printf("Enter a choice (0-1): ");
         scanf("%d",&choice);
     }while(choice < 0 || choice > 1);
 
